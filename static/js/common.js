@@ -183,7 +183,7 @@ $(function(){
         var result = document.getElementById("quiz_result").innerText;
         //ツイート内容をセット
         var tw_contents = ("ぶらり♪えべつくいず " + result + "みんなも挑戦しよう(*ﾟ▽ﾟ)ﾉ！!");
-        var url = "https://sunabaco.com/";
+        var url = "http://buraritoebetsu-oasa13.herokuapp.com/";
         //#twitter_buttonのhrefにパラメーターを渡す
         window.open().location.href = ("https://twitter.com/share?url=" + url + "&text=" + tw_contents + "&count=none&lang=ja");
     });
